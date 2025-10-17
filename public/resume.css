@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-link, h2, strong{
+    color: #00bcd4;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container-education, .container-achivement, .container-skills, .container-languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+}
+
+
+.container-skills {
+    margin: 0;
+    padding-bottom: 50px;
+    list-style: none;
+}
+
+.container-languages {
+    margin: 0;
+    padding-bottom: 50px;
+    list-style: none;
+}
+
+.container-achivement {
+    padding-bottom: 50px;
+    list-style: none;
+}
+
+.container-score {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    list-style: none;
+}
+
+p {
+    text-align: justify;
+}
+
+.download-cv {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.download-cv .btn {
+    background-color: #00bcd4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+.download-cv .btn:hover {
+    background-color: #0097a7;
+}
+
+.bottom-container {
+    background-color: #a1bfeb;
+    bottom: 0;
+    width: 100%;
+}
